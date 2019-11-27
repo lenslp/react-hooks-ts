@@ -5,7 +5,6 @@
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.12",
-    "@types/react": "16.9.12",
     "@types/react-dom": "16.9.4",
     "@types/react-router-dom": "^5.1.2",
     "antd": "^3.25.2",
@@ -25,7 +24,8 @@
     "start-server": "json-server --watch ./mocks/db.json --port 3001",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "lint": "eslint ./src --ext '.js,.jsx,ts,tsx' --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +41,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint": "^6.7.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0"
   }
 }
