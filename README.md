@@ -14,7 +14,8 @@
 1. 配置文件：.eslintrc
 2. 安装插件 Eslint
 3. 安装 prettier
-4. 执行 `yarn eslint`
+4. 增加 .prettierrc 重置 prettier 配置
+5. 执行 `yarn eslint`
 
 ## 启动应用
 
