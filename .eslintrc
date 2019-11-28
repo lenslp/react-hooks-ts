@@ -1,0 +1,11 @@
+{
+  "extends": ["eslint-config-ali/typescript/react", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-lonely-if": 0, // 允许有单个if
+    "no-param-reassign": 0, // 允许修改函数参数
+    "import/prefer-default-export": 0,
+    "indent": [1, 2] // 缩进
+  }
+}

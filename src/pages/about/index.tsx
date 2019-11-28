@@ -1,8 +1,6 @@
 import React from "react";
 
-interface Iprops {}
-
-const About = (props: Iprops) => {
+const About = () => {
   return <div>about</div>;
 };
 

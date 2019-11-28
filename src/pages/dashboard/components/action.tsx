@@ -1,15 +1,13 @@
-import React from 'react'
-import styles from '../index.module.scss'
+import React from "react";
+import "../index.scss";
 
-interface Iprops {}
-
-const RenderAction = (props: Iprops) => {
+const RenderAction = () => {
   return (
-    <div className={styles.actionWrap}>
+    <div className="actionWrap">
       <span>修改</span>
       <span>删除</span>
     </div>
-  )
-}
+  );
+};
 
-export default RenderAction
+export default RenderAction;

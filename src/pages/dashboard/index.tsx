@@ -1,32 +1,30 @@
-import React from 'react'
-import { Table, Button } from 'antd'
-import { columns } from './config/columns'
-import { fetchAllData } from '../../services/dashborad'
-import styles from './index.module.scss'
+import React from "react";
+import { Table, Button } from "antd";
+import { columns } from "./config/columns";
+import { fetchAllData } from "../../services/dashborad";
+import "./index.scss";
 
-interface Iprops {}
-
-const Dashborad = (props: Iprops) => {
-  const [dataSource, changeDataSource] = React.useState()
+const Dashborad = () => {
+  const [dataSource, changeDataSource] = React.useState();
 
   React.useEffect(() => {
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
   // 请求列表数据
   const fetchData = async () => {
-    const res = await fetchAllData()
-    changeDataSource(res)
-  }
+    const res = await fetchAllData();
+    changeDataSource(res);
+  };
 
   return (
     <>
-      <Button type='primary' className={styles.addBtn}>
+      <Button type="primary" className="addBtn">
         添加
       </Button>
       <Table dataSource={dataSource} columns={columns} />;
     </>
-  )
-}
+  );
+};
 
-export default Dashborad
+export default Dashborad;
