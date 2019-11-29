@@ -11,6 +11,8 @@
     "axios": "^0.19.0",
     "babel-plugin-import": "^1.12.2",
     "customize-cra": "^0.9.1",
+    "husky": ">=1",
+    "lint-staged": ">=8",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-app-rewired": "^2.1.5",
@@ -25,7 +27,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "eslint": "eslint ./src --ext '.js,.jsx,ts,tsx' --fix"
+    "eslint": "eslint ./src --ext '.js,.jsx,ts,tsx' --fix",
+    "prettier": "prettier --config ./.prettierrc --write ./src/*"
   },
   "eslintConfig": {
     "extends": "react-app"
