@@ -9,7 +9,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <Layout>
-        <Switch>,
+        <Switch>
+          ,
+
+
+          
           <Redirect exact from="/" to="/dashboard" />,
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/about" component={About} />
