@@ -15,7 +15,10 @@ const App: React.FC = () => {
 
 
 
-          
+
+
+
+
           <Redirect exact from="/" to="/dashboard" />,
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/about" component={About} />
