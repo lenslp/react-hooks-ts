@@ -56,7 +56,6 @@
     "prettier": "^1.19.1"
   },
   "pre-commit": [
-    "echo '正在执行eslint验证...' && exit 0",
     "eslint"
   ]
 }
