@@ -10,7 +10,11 @@ interface Props {
 
 const LayoutWrap = (props: Props) => {
   return (
-    <Layout style={{ height: "100vh" }}>
+    <Layout
+      style={{
+        height: "100vh"
+      }}
+    >
       <Sider breakpoint="lg" collapsedWidth="0">
         <div className="logo" />
         <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
@@ -22,7 +26,12 @@ const LayoutWrap = (props: Props) => {
           </Menu.Item>
         </Menu>
       </Sider>
-      <Layout className="layOut" style={{ background: "#fff" }}>
+      <Layout
+        className="layOut"
+        style={{
+          background: "#fff"
+        }}
+      >
         <Header
           style={{
             background: "#fff",
@@ -34,8 +43,18 @@ const LayoutWrap = (props: Props) => {
         >
           LENS后台管理系统
         </Header>
-        <Content style={{ margin: "24px 16px 0" }}>{props.children}</Content>
-        <Footer style={{ textAlign: "center" }}>
+        <Content
+          style={{
+            margin: "24px 16px 0"
+          }}
+        >
+          {props.children}
+        </Content>
+        <Footer
+          style={{
+            textAlign: "center"
+          }}
+        >
           LENS后台管理系统 ©2019 Created by lens
         </Footer>
       </Layout>

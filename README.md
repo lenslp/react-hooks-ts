@@ -15,8 +15,7 @@
 2. 安装插件 Eslint
 3. 安装 prettier
 4. 增加 .prettierrc 重置 prettier 配置
-5. 执行 `yarn prettier` 根据.prettierrc进行代码风格格式化
-5. 执行 `yarn eslint` 根据.eslintrc进行代码规则格式化
+5. 执行 `yarn eslint` 会根据.prettierrc格式化样式，根据.eslintrc进行代码规则格式化
 
 ## 启动应用
 
