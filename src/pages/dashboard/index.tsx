@@ -19,7 +19,7 @@ const Dashborad = () => {
 
   return (
     <>
-      <Button type="primary" className="addBtn">
+                                  <Button type="primary" className="addBtn">
         添加
       </Button>
       <Table dataSource={dataSource} columns={columns} />;

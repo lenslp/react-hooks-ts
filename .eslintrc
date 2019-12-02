@@ -1,4 +1,18 @@
 {
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "tsx": true
+    }
+  },
   "extends": ["eslint-config-ali/typescript/react", "prettier"],
   "plugins": ["prettier"],
   "rules": {
