@@ -53,9 +53,5 @@
     "eslint-plugin-prettier": "^3.1.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1"
-  },
-  "tnpm": {
-    "mode": "yarn",
-    "lockfile": "enable"
   }
 }
