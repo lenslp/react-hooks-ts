@@ -44,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
     "@typescript-eslint/eslint-plugin": "^1.x",
     "@typescript-eslint/parser": "^2.x",
     "eslint": "^6.7.1",
@@ -51,6 +53,7 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "metro-react-native-babel-preset": "^0.59.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1"
   }
