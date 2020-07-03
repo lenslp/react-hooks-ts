@@ -41,7 +41,7 @@ const LayoutWrap = (props: Props) => {
             borderBottom: "1px solid #eee"
           }}
         >
-          LENS后台管理系统
+          LENS
         </Header>
         <Content
           style={{
